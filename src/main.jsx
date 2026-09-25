@@ -74,12 +74,12 @@ const moocVisuals = [
 ]
 
 const videoWorks = [
-  { no: '01', title: '718 车手节广告', tag: 'COMMERCIAL FILM', type: '品牌广告 / 动态视觉 / 节奏剪辑', year: '2025', video: `${A}videos/718-riders-festival.mp4`, accent: 'orange', intro: '以速度与机械感构建品牌节日氛围，把产品卖点转化为具有冲击力的视觉节奏。', visuals: firstVideoVisuals, backdrop: `${visualCase}first-page-bg.png` },
-  { no: '02', title: '816 狂欢节', tag: 'BRAND CAMPAIGN', type: '商业广告 / 活动视觉 / 视觉包装', year: '2025', video: `${A}videos/816-carnival.mp4`, accent: 'cyan', intro: '围绕狂欢、参与和年轻化传播，完成从创意概念到动态画面交付的完整链路。', visuals: sixteenVisuals },
-  { no: '03', title: '京东 101 广告', tag: 'COMMERCIAL FILM', type: '品牌广告 / AI 视觉 / 成片交付', year: '2025', video: `${A}videos/jd-101-ad.mp4`, accent: 'red', intro: '将商业信息、产品表达与影像叙事融合，形成可直接传播的品牌广告成片。', visuals: jd101Visuals },
-  { no: '04', title: '慕课开场大会', tag: 'EVENT OPENING', type: '品牌活动 / 开场视觉 / AIGC 影像', year: '2024', video: `${A}videos/mooc-opening-aigc.mp4`, accent: 'violet', intro: '用 AIGC 影像建立大会开场的世界观与情绪曲线，让现场信息被更有记忆点地看见。', visuals: moocVisuals },
-  { no: '05', title: '拼贴动画演示', tag: 'VISUAL EXPERIMENT', type: '视觉实验 / 拼贴动画 / 动效设计', year: '2024', video: `${A}videos/collage-animation.mp4`, accent: 'yellow', intro: '探索平面素材、拼贴结构与运动节奏的关系，形成可延展的视觉动效语言。', visuals: collageVisuals },
-  { no: '06', title: '优酷 K8 第二期', tag: 'BRAND CONTENT', type: '品牌内容 / 视觉包装 / 动态设计', year: '2024', video: `${A}videos/youku-k8-02.mp4`, accent: 'blue', intro: '从内容主题出发，搭建统一的动态识别系统，完成品牌内容的视觉包装与交付。', visuals: youkuK8Visuals },
+  { no: '01', title: '718 车手节广告', tag: 'COMMERCIAL FILM', type: '品牌广告 / 动态视觉 / 节奏剪辑', year: '2025', video: `${A}videos-web/718-riders-festival.mp4`, accent: 'orange', intro: '以速度与机械感构建品牌节日氛围，把产品卖点转化为具有冲击力的视觉节奏。', visuals: firstVideoVisuals, backdrop: `${visualCase}first-page-bg.png` },
+  { no: '02', title: '816 狂欢节', tag: 'BRAND CAMPAIGN', type: '商业广告 / 活动视觉 / 视觉包装', year: '2025', video: `${A}videos-web/816-carnival.mp4`, accent: 'cyan', intro: '围绕狂欢、参与和年轻化传播，完成从创意概念到动态画面交付的完整链路。', visuals: sixteenVisuals },
+  { no: '03', title: '京东 101 广告', tag: 'COMMERCIAL FILM', type: '品牌广告 / AI 视觉 / 成片交付', year: '2025', video: `${A}videos-web/jd-101-ad.mp4`, accent: 'red', intro: '将商业信息、产品表达与影像叙事融合，形成可直接传播的品牌广告成片。', visuals: jd101Visuals },
+  { no: '04', title: '慕课开场大会', tag: 'EVENT OPENING', type: '品牌活动 / 开场视觉 / AIGC 影像', year: '2024', video: `${A}videos-web/mooc-opening-aigc.mp4`, accent: 'violet', intro: '用 AIGC 影像建立大会开场的世界观与情绪曲线，让现场信息被更有记忆点地看见。', visuals: moocVisuals },
+  { no: '05', title: '拼贴动画演示', tag: 'VISUAL EXPERIMENT', type: '视觉实验 / 拼贴动画 / 动效设计', year: '2024', video: `${A}videos-web/collage-animation.mp4`, accent: 'yellow', intro: '探索平面素材、拼贴结构与运动节奏的关系，形成可延展的视觉动效语言。', visuals: collageVisuals },
+  { no: '06', title: '优酷 K8 第二期', tag: 'BRAND CONTENT', type: '品牌内容 / 视觉包装 / 动态设计', year: '2024', video: `${A}videos-web/youku-k8-02.mp4`, accent: 'blue', intro: '从内容主题出发，搭建统一的动态识别系统，完成品牌内容的视觉包装与交付。', visuals: youkuK8Visuals },
 ]
 
 function Header() {
